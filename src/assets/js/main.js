@@ -1,5 +1,5 @@
 import './jquery.scrolly.min.js';
-import './jquery.scrollex.min.js';
+import 'jquery.scrollex';
 import breakpoints from './breakpoints.min.js';
 import browser from './browser.min.js';
 

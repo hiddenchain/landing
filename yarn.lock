@@ -4105,7 +4105,13 @@ jpegtran-bin@^3.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
-jquery@^3.3.1:
+jquery.scrollex@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/jquery.scrollex/-/jquery.scrollex-0.2.1.tgz#c03ce02de7bf514890a8590d9ff55f084dd5936d"
+  dependencies:
+    jquery ">=1.11"
+
+jquery@>=1.11, jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
