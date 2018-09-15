@@ -1,9 +1,9 @@
-import './jquery.scrolly.min.js';
-import 'jquery.scrollex';
-import breakpoints from './breakpoints.min.js';
-import browser from './browser.min.js';
+import '../vendor/jquery.scrolly.min.js';
+import breakpoints from '../vendor/breakpoints.min.js';
+import browser from '../vendor/browser.min.js';
 
-import '../sass/main.scss';
+import 'jquery.scrollex';
+
 
 /**
  * Generate an indented list of links from a nav. Meant for use with panel().

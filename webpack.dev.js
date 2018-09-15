@@ -5,7 +5,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
    devtool: 'eval-cheap-module-source-map',
-   entry: './src/assets/js/main.js',
+   entry: {
+      ui: './src/assets/js/ui.js',
+      style: './src/assets/sass/style.scss',
+      noscript: './src/assets/sass/noscript.scss'
+   },
    devServer: {
       contentBase: path.join(__dirname, "dist")
    },

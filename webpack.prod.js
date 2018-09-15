@@ -9,7 +9,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-   entry: './src/assets/js/main.js',
+   entry: {
+      ui: './src/assets/js/ui.js',
+      style: './src/assets/sass/style.scss',
+      noscript: './src/assets/sass/noscript.scss'
+   },
    mode: 'production',
    output: {
       path: path.resolve(__dirname, 'dist'),
