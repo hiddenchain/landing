@@ -59,9 +59,7 @@ module.exports = {
          { from: './src/index.html',    to: "index.html" },
          { from: './src/generic.html',  to: "generic.html" },
          { from: './src/elements.html', to: "elements.html" },
-         { from: './src/images/',       to: "images" },
-         { from: './src/assets/css/',   to: "assets/css" },
-         { from: './src/assets/fonts/', to: "assets/fonts" },
+         { from: './src/images/',       to: "images" }
       ]),
       new webpack.ProvidePlugin({
          '$': "jquery",

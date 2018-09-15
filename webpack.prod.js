@@ -46,9 +46,7 @@ module.exports = {
       new CleanWebpackPlugin(['dist']),
       new CopyWebpackPlugin([
          { from: './src/index.html',    to: "index.html" },
-         { from: './src/images/',       to: "images" },
-         { from: './src/assets/css/',   to: "assets/css" },
-         { from: './src/assets/fonts/', to: "assets/fonts" },
+         { from: './src/images/',       to: "images" }
       ]),
       new ImageminPlugin({
          test: 'images/*',

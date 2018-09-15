@@ -3,6 +3,8 @@ import 'jquery.scrollex';
 import breakpoints from './breakpoints.min.js';
 import browser from './browser.min.js';
 
+import '../sass/main.scss';
+
 /**
  * Generate an indented list of links from a nav. Meant for use with panel().
  * @return {jQuery} jQuery object.
